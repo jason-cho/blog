@@ -80,6 +80,16 @@
 
 ## add to /etc/hosts 
 
+### [root@master nfs_shared]# more /etc/hosts
+
+	127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+	#::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+	192.168.235.128 master
+	192.168.235.129 worker1
+	192.168.235.130 worker2
+
+
 	192.168.235.128 master
 	192.168.235.129 worker1
 	192.168.235.130 worker2
